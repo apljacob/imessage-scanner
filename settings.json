@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 $CLAUDE_PLUGIN_ROOT/bin/imsg-search.py:*)",
+      "Bash(python3 $CLAUDE_PLUGIN_ROOT/bin/imsg-aliases.py:*)",
+      "Read(${HOME}/Library/Messages/chat.db)",
+      "Read(${HOME}/.imsg-scan/aliases.json)",
+      "Write(${HOME}/.imsg-scan/aliases.json)"
+    ]
+  }
+}

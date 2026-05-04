@@ -1,0 +1,20 @@
+{
+  "name": "imessage-scanner",
+  "description": "Single-plugin marketplace for imessage-scanner — a Claude Code plugin that searches your local iMessage history with natural-language queries.",
+  "owner": {
+    "name": "Jacob Cassar",
+    "url": "https://github.com/apljacob"
+  },
+  "plugins": [
+    {
+      "name": "imessage-scanner",
+      "description": "Scan your local iMessage history with natural-language queries via /imsg-scan. Reads ~/Library/Messages/chat.db read-only and decodes Apple's attributedBody typedstream blobs. macOS-only, no cloud, no API calls.",
+      "author": {
+        "name": "Jacob Cassar"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/apljacob/imessage-scanner"
+    }
+  ]
+}

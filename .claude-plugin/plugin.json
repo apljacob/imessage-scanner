@@ -1,0 +1,8 @@
+{
+  "name": "imessage-scanner",
+  "version": "0.1.0",
+  "description": "Scan your local iMessage history with natural-language queries via /imsg-scan. Reads ~/Library/Messages/chat.db (read-only) and decodes Apple's attributedBody typedstream blobs.",
+  "author": {
+    "name": "Jacob Cassar"
+  }
+}
